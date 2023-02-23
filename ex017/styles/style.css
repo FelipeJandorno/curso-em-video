@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital, wght@0,100;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: Verdana,'Courier New',Arial, Helvetica, sans-serif;
+    text-size-adjust: 12px;
+    text-align: justify;
+}
+
+body{
+    background-color: rgb(107, 207, 207);
+    
+    /*font-size: 1em;
+    font-weight: 100;
+    font-style: normal;
+    text-decoration: underline;*/
+
+    /*
+     *  Shorthand font
+     *  - font-style | font-weight | font-size | font-family
+     */
+}
+
+h1, h2{
+    font-family: 'work Sans','Times New Roman','Arial Narrow Bold', sans-serif;
+
+    /*
+     *  Medidas Absolutas: cm, mm, in, px, pt, pc
+     *  Medidas Relativas: em, ex, rem, vw, vh, %
+     */
+}
+
+main{
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}

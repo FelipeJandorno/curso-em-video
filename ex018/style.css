@@ -1,0 +1,28 @@
+
+/*Kaushan Script - font*/
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+/*Poppins - font*/
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@200;300&display=swap');
+
+/* Press Start 2P - font*/
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(22, 20, 20);
+}
+
+h1{
+    font-family: 'Kaushan Script','Press Start 2P', 'Times New Roman', Times, serif;
+    font-size: 5em;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Kaushan Script','Press Start 2P';
+    font-size: 1em;
+    margin-top: 50px;
+}

@@ -1,0 +1,15 @@
+div{
+    background-color: lightblue;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border: solid black;
+    margin: 1px;
+    border-width: 1px;
+    display: inline-block;
+}
+
+div:hover
+{
+    border: 1px solid red;
+}

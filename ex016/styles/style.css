@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right, #F1D8C9, #F2C347);
+}
+
+p{
+    text-align: justify;
+}
+
+h1{
+    color: #F39209;
+    text-align: center;
+    text-shadow: 1px 1px 5px #d4dce4;
+}
+
+h2{
+    color: #125189;
+}
+main{
+    background-color: white;
+    padding: 20px;
+    width: 600px;
+    margin: auto; /*Independentemente do tamanho da janela, ou da movimentação da mesma, esse atributo permite que o texto fique sempre centralizado para o usuário*/
+    border-radius: 10px;
+    box-shadow: 10px 10px 50px #f8e3a7;
+}
