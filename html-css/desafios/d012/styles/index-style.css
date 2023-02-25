@@ -91,15 +91,27 @@ section.section-normal{
 section.section-image{
     background-color: lightgrey;
     color: white;
+    box-shadow: inset 4px 4px 10px 0px rgba(0, 0, 0, 0.35);
+    background-size:cover;
+    background-attachment: fixed;
 }
 
 section.section-image > p{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.35);
     margin: 0px;
     width: 40vh;
-    opacity: 0.35;
     padding: 10px;
     border-radius: 10px;
+}
+
+section#img01{
+    background-image: url(../images/background001.jpg);
+    background-position: bottom right;
+}
+
+section#img02{
+    background-image: url(../images/background002.jpg);
 }
 
 
@@ -113,7 +125,7 @@ footer{
 }
 
 footer p.content{
-    width: 25vh;
+    width: 27vh;
     margin: 0px;
 
     position: absolute;
