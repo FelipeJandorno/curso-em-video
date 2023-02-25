@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+}
+
+html, body{
+    background-color: gainsboro;
+    color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 0px;
+    min-height: 100vh;
+}
+
+/*
+    CONTEÚDO DO CABEÇALHO
+*/
+header{
+    background-color: black;
+    text-align: center;
+    height: 20vh;
+}
+
+header div.conteiner{
+    height: 20vh;
+    width: 100%;
+}
+
+header div.content{
+    height: 10vh;
+    width: 100%;
+}
+
+header h1{
+    margin: 0px;
+    padding: 0px;
+    font-variant: small-caps;
+}
+
+header hr{
+    width: 25vh;
+}
+
+header a, footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+
+    transition: 0.5s;
+}
+
+footer a:hover, header a:hover{
+    background-color: rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    padding: 3px;
+
+    transition: 0.5s;
+}
+
+/*
+    CONFIGURAÇÕES DAS SECTIONS
+*/
+
+section{
+    padding: 10vh 2vh;
+    line-height: 2em;
+}
+
+section.section-normal{
+    background-color: white;
+    color: black;
+}
+
+section.section-image{
+    background-color: lightgrey;
+    color: white;
+}
+
+section.section-image > p{
+    background-color: black;
+    margin: 0px;
+    width: 40vh;
+    opacity: 0.35;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+/*
+    CONFIGURAÇÕES DO FOOTER
+*/
+
+footer{
+    background-color: black;
+    height: 4vh;
+}
+
+footer p.content{
+    width: 25vh;
+    margin: 0px;
+
+    position: absolute;
+    top: 25%;
+    left: 45%;
+}
+
+footer div.conteiner{
+    height: 4vh;
+    position: relative;
+}
+/*
+    CLASSES GERAIS
+*/
+
+.conteiner{
+    position:relative;
+}
+
+.content{
+    position: absolute;
+    top: 25%;
+    left: 0%;
+}
